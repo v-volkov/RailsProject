@@ -1,0 +1,4 @@
+<h1>Tasks calculator</h1>
+Select task:
+<%= select_tag 'task', options_for_select(@tasks.collect{ |t| [t.number, t.the_task] })%>
+<%= t.the_task%>
